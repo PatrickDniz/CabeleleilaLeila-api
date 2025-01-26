@@ -16,7 +16,10 @@ Instalar Dependencias
 Compilar o projeto
 - dotnet build
 
-Aplicat Migrations
+Instalar Entity Framework Core
+- dotnet tool install --global dotnet-ef
+
+Aplicar Migrations
 - dotnet ef database update
 
 Executar o projeto
